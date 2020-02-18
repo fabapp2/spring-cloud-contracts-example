@@ -1,12 +1,12 @@
 package contracts
 
-import com.github.tomakehurst.wiremock.http.Response
-
 org.springframework.cloud.contract.spec.Contract.make {
     request{
             method "POST"
             url "/messages"
-            body("Hello, Producer!")
+            body(
+                    $(consumer(regex('Hello.*')), producer("Hello Bob"))
+            )
             headers{
                 contentType("application/json")
             }
