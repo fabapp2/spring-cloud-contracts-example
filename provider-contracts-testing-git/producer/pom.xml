@@ -70,7 +70,6 @@
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
 					<baseClassForTests>com.example.scc.producer.HelloServiceSccBase</baseClassForTests>
-					<testMode>EXPLICIT</testMode>
 				</configuration>
 			</plugin>
 			<plugin>
