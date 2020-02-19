@@ -4,7 +4,7 @@ org.springframework.cloud.contract.spec.Contract.make {
     // Human readable description
     description 'Test that a message gets send'
     // Label by means of which the output message can be triggered on consumer side
-    label 'some_label'
+    label 'triggerHelloMessage'
     // input to the contract
     input {
         // the contract will be triggered by a method
