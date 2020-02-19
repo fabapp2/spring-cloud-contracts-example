@@ -1,6 +1,7 @@
 package com.example.scc.consumer;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.*;
@@ -11,6 +12,7 @@ import org.springframework.web.util.UriTemplate;
 
 import java.net.URI;
 
+@Slf4j
 @RequiredArgsConstructor
 @Service
 public class ConsumerOfHelloService {
@@ -30,4 +32,7 @@ public class ConsumerOfHelloService {
         return restTemplate.postForObject(url, request, String.class);
     }
 
+    public void handleHelloMessage(String message) {
+        log.info(String.format("Received message: %s", message));
+    }
 }

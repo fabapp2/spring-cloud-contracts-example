@@ -5,6 +5,7 @@ package com.example.scc.consumer;
 		import org.springframework.boot.test.context.SpringBootTest;
 		import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
 		import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties;
+		import org.springframework.cloud.contract.verifier.messaging.boot.AutoConfigureMessageVerifier;
 
 @SpringBootTest(properties = "producer.url=http://localhost:${stubrunner.runningstubs.producer.port}")
 @AutoConfigureStubRunner(
