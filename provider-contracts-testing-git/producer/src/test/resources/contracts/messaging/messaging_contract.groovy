@@ -1,4 +1,4 @@
-package contracts
+package contracts.messaging
 
 org.springframework.cloud.contract.spec.Contract.make {
     // Human readable description

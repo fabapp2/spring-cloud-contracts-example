@@ -85,7 +85,8 @@
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
-					<baseClassForTests>com.example.scc.producer.HelloServiceSccBase</baseClassForTests>
+<!--					<baseClassForTests>com.example.scc.producer.baseclasses.RestBase</baseClassForTests>-->
+					<packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
 				</configuration>
 			</plugin>
 			<plugin>

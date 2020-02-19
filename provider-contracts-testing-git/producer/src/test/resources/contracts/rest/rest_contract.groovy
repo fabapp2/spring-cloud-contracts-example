@@ -1,4 +1,4 @@
-package contracts
+package contracts.rest
 
 org.springframework.cloud.contract.spec.Contract.make {
     request{
