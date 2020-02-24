@@ -14,7 +14,7 @@ org.springframework.cloud.contract.spec.Contract.make {
     // output message of the contract
     outputMessage {
         // destination to which the output message will be sent
-        sentTo('output')
+        sentTo('messages')
         // the body of the output message
         body("Hello")
         // the headers of the output message
