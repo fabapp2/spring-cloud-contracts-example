@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ea5b658-cdc7-44af-bd72-12f07b30c036" name="Default Changelist" comment="added support for Spring Rest Docs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XnHvVAqdAtodKxV24KE4Y2ko3s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.scc.producer.baseclasses.contracts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.scc.producer.baseclasses" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/contracts/rest" />
+      <recent name="$PROJECT_DIR$/src/test/resources/contracts/messaging" />
+      <recent name="$PROJECT_DIR$/src/test/resources/contracts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProducerApplication">
+    <configuration name="ContractVerifierTest.validate_messaging_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.producer.baseclasses.contracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.producer.ContractVerifierTest" />
+      <option name="METHOD_NAME" value="validate_messaging_contract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractVerifierTest.validate_rest_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.producer.baseclasses.contracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.producer.ContractVerifierTest" />
+      <option name="METHOD_NAME" value="validate_rest_contract" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.producer.baseclasses.contracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.producer.baseclasses" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.producer.baseclasses.MessagingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.producer.baseclasses.contracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.producer.baseclasses" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.producer.baseclasses.RestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.scc.producer.baseclasses in producer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.producer.baseclasses.contracts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.producer.baseclasses" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.scc.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RestTest" />
+        <item itemvalue="JUnit.com.example.scc.producer.baseclasses in producer" />
+        <item itemvalue="JUnit.MessagingTest" />
+        <item itemvalue="JUnit.ContractVerifierTest.validate_messaging_contract" />
+        <item itemvalue="JUnit.ContractVerifierTest.validate_rest_contract" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ea5b658-cdc7-44af-bd72-12f07b30c036" name="Default Changelist" comment="" />
+      <created>1581675168322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581675168322</updated>
+      <workItem from="1581675172069" duration="43677000" />
+    </task>
+    <task id="LOCAL-00001" summary="removed EXPLICIT testMode and configured base class to use RestAssuredMockMvc">
+      <created>1582040251848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582040251848</updated>
+    </task>
+    <task id="LOCAL-00002" summary="producer sends message with header which is verified by unittest and contract using assert method in base class">
+      <created>1582124452448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582124452448</updated>
+    </task>
+    <task id="LOCAL-00003" summary="split up base class using &lt;packageWithBaseClasses&gt; in pom.xml">
+      <created>1582125813819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582125813819</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed label name for messaging contract">
+      <created>1582128803960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582128803960</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed destination to name &quot;message&quot;">
+      <created>1582543610241</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582543610241</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added support for Spring Rest Docs">
+      <created>1582571309058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582571309058</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed EXPLICIT testMode and configured base class to use RestAssuredMockMvc" />
+    <MESSAGE value="producer sends message with header which is verified by unittest and contract using assert method in base class" />
+    <MESSAGE value="split up base class using &lt;packageWithBaseClasses&gt; in pom.xml" />
+    <MESSAGE value="changed label name for messaging contract" />
+    <MESSAGE value="changed destination to name &quot;message&quot;" />
+    <MESSAGE value="added support for Spring Rest Docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added support for Spring Rest Docs" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="838" y="401" key="#ContractVerifierTest" timestamp="1581686476680">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="838" y="400" key="#ContractVerifierTest.validate_rest_contract" timestamp="1581689942493">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="838" y="400" key="#ContractVerifierTest.validate_rest_contract/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581689942493" />
+    <state x="838" y="401" key="#ContractVerifierTest/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581686476680" />
+    <state x="1035" y="597" width="560" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582633939466">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1035" y="597" width="560" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939466" />
+    <state x="755" y="172" width="1573" height="1218" key="CommitChangelistDialog2" timestamp="1582634723889">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="-1185" y="251" key="CommitChangelistDialog2/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106411238" />
+    <state x="755" y="172" width="1573" height="1218" key="CommitChangelistDialog2/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582634723889" />
+    <state width="556" height="466" key="DebuggerActiveHint" timestamp="1582061918249">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="556" height="466" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1582061918249" />
+    <state width="2518" height="489" key="GridCell.Tab.0.bottom" timestamp="1582633939490">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522764" />
+    <state width="1638" height="339" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512018" />
+    <state width="2518" height="489" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939490" />
+    <state width="2518" height="489" key="GridCell.Tab.0.center" timestamp="1582633939489">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522763" />
+    <state width="1638" height="339" key="GridCell.Tab.0.center/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512017" />
+    <state width="2518" height="489" key="GridCell.Tab.0.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939489" />
+    <state width="2518" height="489" key="GridCell.Tab.0.left" timestamp="1582633939488">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522762" />
+    <state width="1638" height="339" key="GridCell.Tab.0.left/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512016" />
+    <state width="2518" height="489" key="GridCell.Tab.0.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939488" />
+    <state width="2518" height="489" key="GridCell.Tab.0.right" timestamp="1582633939489">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522763" />
+    <state width="1638" height="339" key="GridCell.Tab.0.right/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512018" />
+    <state width="2518" height="489" key="GridCell.Tab.0.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939489" />
+    <state width="2518" height="489" key="GridCell.Tab.1.bottom" timestamp="1582633939492">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522655" />
+    <state width="1638" height="339" key="GridCell.Tab.1.bottom/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512020" />
+    <state width="2518" height="489" key="GridCell.Tab.1.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939492" />
+    <state width="2518" height="489" key="GridCell.Tab.1.center" timestamp="1582633939491">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522654" />
+    <state width="1638" height="339" key="GridCell.Tab.1.center/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512020" />
+    <state width="2518" height="489" key="GridCell.Tab.1.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939491" />
+    <state width="2518" height="489" key="GridCell.Tab.1.left" timestamp="1582633939490">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522653" />
+    <state width="1638" height="339" key="GridCell.Tab.1.left/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512019" />
+    <state width="2518" height="489" key="GridCell.Tab.1.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939490" />
+    <state width="2518" height="489" key="GridCell.Tab.1.right" timestamp="1582633939491">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="339" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582063522654" />
+    <state width="1638" height="339" key="GridCell.Tab.1.right/0.23.2560.1417/-1680.23.1680.1027@-1680.23.1680.1027" timestamp="1582106512020" />
+    <state width="2518" height="489" key="GridCell.Tab.1.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939491" />
+    <state width="2518" height="489" key="GridCell.Tab.2.bottom" timestamp="1582633939493">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="489" key="GridCell.Tab.2.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939493" />
+    <state width="2518" height="489" key="GridCell.Tab.2.center" timestamp="1582633939493">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="489" key="GridCell.Tab.2.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939493" />
+    <state width="2518" height="489" key="GridCell.Tab.2.left" timestamp="1582633939492">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="489" key="GridCell.Tab.2.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939492" />
+    <state width="2518" height="489" key="GridCell.Tab.2.right" timestamp="1582633939493">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="489" key="GridCell.Tab.2.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582633939493" />
+    <state x="913" y="457" key="RollbackChangesDialog" timestamp="1582041117402">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="913" y="457" key="RollbackChangesDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582041117402" />
+    <state x="863" y="481" key="Vcs.Push.Dialog.v2" timestamp="1582571310749">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="863" y="481" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571310749" />
+    <state x="100" y="123" width="2360" height="1217" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1582125920088">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="123" width="2360" height="1217" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582125920088" />
+    <state x="106" y="141" width="2315" height="1198" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582040387538">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="106" y="141" width="2315" height="1198" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582040387538" />
+    <state x="920" y="574" key="com.intellij.ide.util.TipDialog" timestamp="1581682356817">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="920" y="574" key="com.intellij.ide.util.TipDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581682356817" />
+    <state x="1043" y="408" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581687053187">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1043" y="408" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581687053187" />
+    <state x="928" y="361" width="670" height="676" key="search.everywhere.popup" timestamp="1582568882802">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="609" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1582063124755" />
+    <state x="928" y="361" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582568882802" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/scc/producer/MessageOutboundAdapter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/scc/producer/HelloRestController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

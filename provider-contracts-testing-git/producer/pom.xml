@@ -110,9 +110,28 @@
                 <extensions>true</extensions>
                 <configuration>
                     <testFramework>JUNIT5</testFramework>
-                    <!--					<baseClassForTests>com.example.scc.producer.baseclasses.RestBase</baseClassForTests>-->
+                    <!--					<baseClassForTests>ContractsRestBase</baseClassForTests>-->
                     <packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
+                    <contractsRepositoryUrl>git://git@github.com:fabapp2/spring-cloud-contract-contracts-repository.git</contractsRepositoryUrl>
+                    <contractDependency>
+                        <groupId>${project.groupId}</groupId>
+                        <artifactId>${project.artifactId}</artifactId>
+                        <version>${project.version}</version>
+                    </contractDependency>
+                    <contractsDirectory>contracts</contractsDirectory>
+                    <contractsMode>REMOTE</contractsMode>
+                    <failOnNoContracts>false</failOnNoContracts>
                 </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <!-- By default we will not push the stubs back to SCM,
+                            you have to explicitly add it as a goal -->
+                            <goal>pushStubsToScm</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <!-- Spring Rest Docs -->

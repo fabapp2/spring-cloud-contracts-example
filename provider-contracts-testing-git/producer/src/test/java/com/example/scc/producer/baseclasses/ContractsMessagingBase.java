@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
 @DirtiesContext
 @AutoConfigureMessageVerifier
-public class MessagingBase {
+public class ContractsMessagingBase {
 
     @Autowired
     MessageOutboundAdapter messageOutboundAdapter;

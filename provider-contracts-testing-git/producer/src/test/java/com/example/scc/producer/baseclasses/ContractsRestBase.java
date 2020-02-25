@@ -23,7 +23,7 @@ import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.docu
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @DirtiesContext
 @ExtendWith({RestDocumentationExtension.class, SpringExtension.class})
-public class RestBase {
+public class ContractsRestBase {
 
     private RequestSpecification spec;
 

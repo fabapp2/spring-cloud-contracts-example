@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7a23e7d-3422-4dfb-a4cc-2942a05c1874" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Xn9MkI9dtHGU9TAOqxnNMorEbD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.scc.consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.scc.consumer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/contracts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="ConsumerApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.consumer.ConsumerApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplicationTests.inbound_message_should_call_service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.consumer.ConsumerApplicationTests" />
+      <option name="METHOD_NAME" value="inbound_message_should_call_service" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplicationTests.useHelloService_should_call_hello_service_using_http" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.consumer.ConsumerApplicationTests" />
+      <option name="METHOD_NAME" value="useHelloService_should_call_hello_service_using_http" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageInboundAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.consumer.MessageInboundAdapterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageInboundAdapterTest.inboundMessageShouldBeProcessedByTemperatureMonitoring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.scc.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.scc.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.example.scc.consumer.MessageInboundAdapterTest" />
+      <option name="METHOD_NAME" value="inboundMessageShouldBeProcessedByTemperatureMonitoring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.scc.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConsumerApplicationTests" />
+        <item itemvalue="JUnit.ConsumerApplicationTests.inbound_message_should_call_service" />
+        <item itemvalue="JUnit.MessageInboundAdapterTest" />
+        <item itemvalue="JUnit.ConsumerApplicationTests.useHelloService_should_call_hello_service_using_http" />
+        <item itemvalue="JUnit.MessageInboundAdapterTest.inboundMessageShouldBeProcessedByTemperatureMonitoring" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7a23e7d-3422-4dfb-a4cc-2942a05c1874" name="Default Changelist" comment="" />
+      <created>1581670945766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581670945766</updated>
+      <workItem from="1581670948138" duration="583000" />
+      <workItem from="1581672485612" duration="551000" />
+      <workItem from="1582041245397" duration="12390000" />
+      <workItem from="1582571091371" duration="2713000" />
+    </task>
+    <task id="LOCAL-00001" summary="added message listener and test">
+      <created>1582128422701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582128422701</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added message listener and test">
+      <created>1582542759624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582542759624</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Controller sends message to Kafka">
+      <created>1582621807253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582621807253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added message listener and test" />
+    <MESSAGE value="Controller sends message to Kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller sends message to Kafka" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1036" y="605" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582128114187">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1036" y="605" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582128114187" />
+    <state x="633" y="165" width="1558" height="1197" key="CommitChangelistDialog2" timestamp="1582621807062">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="633" y="165" width="1558" height="1197" key="CommitChangelistDialog2/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582621807062" />
+    <state x="106" y="141" width="2315" height="1198" key="DiffContextDialog" timestamp="1582542658052">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="106" y="141" width="2315" height="1198" key="DiffContextDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582542658052" />
+    <state width="2473" height="245" key="GridCell.Tab.0.bottom" timestamp="1582571707803">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582055743072" />
+    <state width="2473" height="245" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707803" />
+    <state width="2473" height="245" key="GridCell.Tab.0.center" timestamp="1582571707802">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582055743071" />
+    <state width="2473" height="245" key="GridCell.Tab.0.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707802" />
+    <state width="2473" height="245" key="GridCell.Tab.0.left" timestamp="1582571707801">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582055743070" />
+    <state width="2473" height="245" key="GridCell.Tab.0.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707801" />
+    <state width="2473" height="245" key="GridCell.Tab.0.right" timestamp="1582571707802">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582055743072" />
+    <state width="2473" height="245" key="GridCell.Tab.0.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707802" />
+    <state width="2473" height="302" key="GridCell.Tab.1.bottom" timestamp="1582571707685">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582055711097" />
+    <state width="2473" height="302" key="GridCell.Tab.1.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707685" />
+    <state width="2473" height="302" key="GridCell.Tab.1.center" timestamp="1582571707683">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582055711097" />
+    <state width="2473" height="302" key="GridCell.Tab.1.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707683" />
+    <state width="2473" height="302" key="GridCell.Tab.1.left" timestamp="1582571707683">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582055711097" />
+    <state width="2473" height="302" key="GridCell.Tab.1.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707683" />
+    <state width="2473" height="302" key="GridCell.Tab.1.right" timestamp="1582571707684">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1638" height="493" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582055711097" />
+    <state width="2473" height="302" key="GridCell.Tab.1.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707684" />
+    <state width="2473" height="246" key="GridCell.Tab.2.bottom" timestamp="1582571707671">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2473" height="246" key="GridCell.Tab.2.bottom/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707671" />
+    <state width="2473" height="246" key="GridCell.Tab.2.center" timestamp="1582571707670">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2473" height="246" key="GridCell.Tab.2.center/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707670" />
+    <state width="2473" height="246" key="GridCell.Tab.2.left" timestamp="1582571707669">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2473" height="246" key="GridCell.Tab.2.left/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707669" />
+    <state width="2473" height="246" key="GridCell.Tab.2.right" timestamp="1582571707670">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2473" height="246" key="GridCell.Tab.2.right/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571707670" />
+    <state x="772" y="379" key="SettingsEditor" timestamp="1582129086911">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="772" y="379" key="SettingsEditor/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582129086911" />
+    <state x="863" y="481" key="Vcs.Push.Dialog.v2" timestamp="1582621808918">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="863" y="481" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582621808918" />
+    <state x="929" y="482" key="VcsDiffUtil.ChangesDialog" timestamp="1582542642726">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="929" y="482" key="VcsDiffUtil.ChangesDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582542642726" />
+    <state x="920" y="574" key="com.intellij.ide.util.TipDialog" timestamp="1581672488343">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="920" y="574" key="com.intellij.ide.util.TipDialog/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581672488343" />
+    <state x="927" y="504" width="673" height="472" key="find.popup" timestamp="1582571140107">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="927" y="504" width="673" height="472" key="find.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582571140107" />
+    <state x="657" y="445" key="new project wizard" timestamp="1581673058776">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="657" y="445" key="new project wizard/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1581673058776" />
+    <state x="928" y="391" width="670" height="676" key="search.everywhere.popup" timestamp="1582131636400">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="928" y="391" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417/-1680.23.1680.1027@0.23.2560.1417" timestamp="1582131636400" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/scc/consumer/ConsumerApplicationTests.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/scc/consumer/MessageInboundAdapter.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/scc/consumer/ConsumerApplicationTests.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.2.1.RELEASE/spring-cloud-contract-stub-runner-2.2.1.RELEASE.jar!/org/springframework/cloud/contract/stubrunner/StubRunnerExecutor.class</url>
+          <line>181</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.2.1.RELEASE/spring-cloud-contract-stub-runner-2.2.1.RELEASE.jar!/org/springframework/cloud/contract/stubrunner/StubRunnerExecutor.class</url>
+          <line>247</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.2.1.RELEASE/spring-cloud-contract-stub-runner-2.2.1.RELEASE.jar!/org/springframework/cloud/contract/stubrunner/spring/LazyMessageVerifier.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
