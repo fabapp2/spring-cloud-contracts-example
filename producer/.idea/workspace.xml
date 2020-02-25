@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ea5b658-cdc7-44af-bd72-12f07b30c036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/scc/producer/baseclasses/MessagingBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/scc/producer/baseclasses/ContractsMessagingBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/scc/producer/baseclasses/RestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/scc/producer/baseclasses/ContractsRestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/contracts/messaging/messaging_contract.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/contracts/rest/rest_contract.groovy" beforeDir="false" />
-    </list>
+    <list default="true" id="9ea5b658-cdc7-44af-bd72-12f07b30c036" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
