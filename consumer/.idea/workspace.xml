@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7a23e7d-3422-4dfb-a4cc-2942a05c1874" name="Default Changelist" comment="" />
+    <list default="true" id="e7a23e7d-3422-4dfb-a4cc-2942a05c1874" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/test/java/com/example/scc/producer/baseclasses/MessagingBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/test/java/com/example/scc/producer/baseclasses/ContractsMessagingBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/test/java/com/example/scc/producer/baseclasses/RestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/test/java/com/example/scc/producer/baseclasses/ContractsRestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/test/resources/contracts/messaging/messaging_contract.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/test/resources/contracts/rest/rest_contract.groovy" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,6 +336,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.2.1.RELEASE/spring-cloud-contract-stub-runner-2.2.1.RELEASE.jar!/org/springframework/cloud/contract/stubrunner/spring/LazyMessageVerifier.class</url>
           <line>47</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/scc/consumer/ConsumerOfHelloService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
