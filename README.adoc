@@ -82,7 +82,7 @@ When running a `mvn clean install` this artifact will be used to generate the SC
 .. You can check the content running a `jar -tf target/contracts-0.0.1.jar`
 . deploy generated jar to artifactory
 .. Start a local Artifactory server: `docker run  -p 8085:8081 docker_artifactory` (or any  other image)
-.. login to your local http://localhost:8000[artifactory] using username `admin` with password `password` as credentials.
+.. login to your local http://localhost:8085[artifactory] using username `admin` with password `password` as credentials.
 .. click `artifacts` an then `upload` or `deploy` in the upper right corner
 .. enter `com.example.scc:contracts:<version>` as upload information
 . Run the test for the producer

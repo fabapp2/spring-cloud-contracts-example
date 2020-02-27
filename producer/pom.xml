@@ -114,7 +114,7 @@
                     <packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
                     <contractsMode>REMOTE</contractsMode>
                     <contractsRepositoryUrl>
-                        http://localhost:8081/artifactory/libs-release
+                        http://localhost:8085/artifactory/libs-release
                     </contractsRepositoryUrl>
                     <contractDependency>
                         <groupId>com.example.scc</groupId>
