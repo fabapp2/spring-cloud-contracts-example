@@ -59,7 +59,7 @@ When running a `mvn clean install` this artifact will be used to generate the SC
                     <testFramework>JUNIT5</testFramework>
                     <packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
                     <contractsMode>REMOTE</contractsMode>
-                    <contractsRepositoryUrl>http://localhost:8081/artifactory/libs-release</contractsRepositoryUrl> <1>
+                    <contractsRepositoryUrl>http://localhost:8085/artifactory/libs-release</contractsRepositoryUrl> <1>
                     <contractDependency> <2>
                         <groupId>com.example.scc</groupId>
                         <artifactId>contracts</artifactId>
