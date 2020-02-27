@@ -112,6 +112,16 @@
                     <testFramework>JUNIT5</testFramework>
                     <!--					<baseClassForTests>com.example.scc.producer.baseclasses.RestBase</baseClassForTests>-->
                     <packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
+                    <contractsMode>REMOTE</contractsMode>
+                    <contractsRepositoryUrl>
+                        http://localhost:8081/artifactory/libs-release
+                    </contractsRepositoryUrl>
+                    <contractDependency>
+                        <groupId>com.example.scc</groupId>
+                        <artifactId>contracts</artifactId>
+                        <version>0.0.1</version>
+                    </contractDependency>
+                    <basePackageForTests>com.example.scc.producer</basePackageForTests>
                 </configuration>
             </plugin>
 

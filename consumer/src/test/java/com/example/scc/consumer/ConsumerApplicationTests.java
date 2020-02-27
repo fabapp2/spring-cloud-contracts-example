@@ -10,7 +10,7 @@ package com.example.scc.consumer;
 
 @SpringBootTest(properties = "producer.url=http://localhost:${stubrunner.runningstubs.producer.port}")
 @AutoConfigureStubRunner(
-		ids = "com.example.scc:producer:0.0.1-SNAPSHOT:stubs",
+		ids = "com.example.scc:producer:+:stubs",
 		stubsMode = StubRunnerProperties.StubsMode.LOCAL)
 class ConsumerApplicationTests {
 

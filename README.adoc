@@ -1,0 +1,93 @@
+= Spring Cloud Contract examples
+:doctype: book
+:icons: font
+:path-to-contracts-pom: /contracts/pom.xml
+:path-to-contracts-internal-pom: /contracts/com/example/scc/producer/pom.xml
+
+
+# Contracts in a remote repository
+
+With this approach the contracts will be kept in a jar and stored in a central remote repository, e.g Nexus or Artifactory.
+
+NOTE: This approach is useful in cases when consumers and producers are written in Java or Kotlin and consumers cannot access the producer repository.
+
+## Setup
+
+### contracts project
+
+See the link:/contracts[contracts project]
+
+The project will have a link:{path-to-contracts-pom}[`pom.xml`] to generate a jar using `maven-assembly-plugin`.
+The generated jar will contain the contracts and a link:{path-to-contracts-internal-pom}[`pom.xml`]
+which will be used by the consumer(s) to generate the stubs and by the producer to generate the tests.
+
+### consumer project
+
+See the link:/consumer[consumer project]
+
+The consumer(s) will need to checkout the contract project and build a jar with the generated stubs and install it into their local maven repository
+ doing a `mvn clean install -DskipTests`. using this link:{path-to-contracts-internal-pom}[`pom.xml`]. +
+
+IMPORTANT: It is important to skip the tests as the `spring-cloud-contract-maven-plugin` otherwise tries to generate the tests for the producer which will fail.
+
+To use the generated stubs in client tests we use the `@AutoConfigureStubRunner` annotation like this:
+
+[source, java]
+----
+@AutoConfigureStubRunner(
+		ids = "com.example.scc:producer:+:stubs",
+		stubsMode = StubRunnerProperties.StubsMode.LOCAL)
+----
+
+### producer project
+
+See the link:/producer[producer project]
+
+On the producer side we need to declare the repository url and the dependency which includes the contracts.
+When running a `mvn clean install` this artifact will be used to generate the SCC tests.
+
+* [ ] TODO: Explain relation between structur in jar and package names in producer
+
+[source, xml]
+----
+            <plugin>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-contract-maven-plugin</artifactId>
+                <version>2.2.1.RELEASE</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <testFramework>JUNIT5</testFramework>
+                    <packageWithBaseClasses>com.example.scc.producer.baseclasses</packageWithBaseClasses>
+                    <contractsMode>REMOTE</contractsMode>
+                    <contractsRepositoryUrl>http://localhost:8081/artifactory/libs-release</contractsRepositoryUrl> <1>
+                    <contractDependency> <2>
+                        <groupId>com.example.scc</groupId>
+                        <artifactId>contracts</artifactId>
+                        <version>0.0.1</version>
+                    </contractDependency>
+                    <basePackageForTests>com.example.scc.producer</basePackageForTests>
+                </configuration>
+            </plugin>
+----
+
+<1> define the url of the repository
+<2> define the artifact which has the contracts (sure, it must be available in the repository)
+
+## Running the example
+
+. Run the client tests against the generated stubs
+.. `mvn clean install -DskipTests`. using this link:{path-to-contracts-internal-pom}[`pom.xml`] should be enough.
+. Create the jar containing the contracts.
+.. run a `mvn clean assembly:single` using this link:{path-to-contracts-pom}[`pom.xml`] to generate the jar with contracts
+.. You can check the content running a `jar -tf target/contracts-0.0.1.jar`
+. deploy generated jar to artifactory
+.. Start a local Artifactory server: `docker run  -p 8085:8081 docker_artifactory` (or any  other image)
+.. login to your local http://localhost:8000[artifactory] using username `admin` with password `password` as credentials.
+.. click `artifacts` an then `upload` or `deploy` in the upper right corner
+.. enter `com.example.scc:contracts:<version>` as upload information
+. Run the test for the producer
+
+
+
+### Resources
+https://cloud.spring.io/spring-cloud-contract/reference/html/using.html#flows-cdc-contracts-external[official documentation]
